@@ -1,0 +1,16 @@
+{
+  "name": "aula-test-backend",
+  "version": "1.0.0",
+  "description": "`npm i` to install npm packages",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladyslav Potapchuk",
+  "license": "ISC"
+}
