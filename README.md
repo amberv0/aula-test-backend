@@ -27,3 +27,4 @@ Example: `GET http://localhost:8080/songs/song2.mp3`
 * Save stats about what songs users are listening to, the duration, etc
 * Add some registration/authentication, so that eventually we can add something like Favorite songs, creating playlists and sharing them with other users
 * Forbid embedding our songs on other websites
+* Add possibility to upload new songs
