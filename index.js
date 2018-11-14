@@ -10,7 +10,15 @@ const songsList = JSON.parse(fs.readFileSync('songs.json', 'utf8')); //let it be
 app.use('/songs', express.static('songs'));
 
 app.get('/api/songs', function(req, res){
-    return res.json(songsList)
+    let result = songsList;
+    const {album, year} = req.query;
+    if(album){
+        result = _.filter(result, {album})
+    }
+    if(year){
+        result = _.filter(result, {year})
+    }
+    return res.json(result);
 });
 
 app.get('/api/songs/:filename', function(req, res){

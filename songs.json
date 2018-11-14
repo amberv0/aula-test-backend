@@ -1,5 +1,5 @@
 [
-  {"filename": "song1.mp3", "title": "Awesome song number one", "album": "Mozart Opera Rock"},
-  {"filename": "song2.mp3", "title": "Great song, number 2", "album": "Mozart Opera Rock"},
-  {"filename": "song3.mp3", "title": "Yet another song", "album": "Mozart Opera Rock"}
+  {"filename": "song1.mp3", "title": "Awesome song number one", "album": "Mozart Opera Rock", "year": "2015"},
+  {"filename": "song2.mp3", "title": "Great song, number 2", "album": "Mozart Opera Rock2", "year": "2015"},
+  {"filename": "song3.mp3", "title": "Yet another song", "album": "Mozart Opera Rock", "year": "2016"}
 ]
